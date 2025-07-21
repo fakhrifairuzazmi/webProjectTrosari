@@ -10,8 +10,8 @@ function App() {
   const attractionsData = [
     {
       id: 1,
-      name: 'Air Terjun Indah',
-      description: 'Air terjun yang memukau dengan suasana asri dan air yang jernih. Lokasi ini sangat cocok untuk relaksasi dan menikmati keindahan alam. Anda bisa berfoto dengan latar belakang air terjun yang megah dan merasakan kesegaran airnya.',
+      name: 'Air Terjun Indahhhhhhhh',
+      description: 'Air terjun yaefefevefvng memukau dengan suasana asri dan air yang jernih. Lokasi ini sangat cocok untuk relaksasi dan menikmati keindahan alam. Anda bisa berfoto dengan latar belakang air terjun yang megah dan merasakan kesegaran airnya.',
       image: 'images/air-terjun.jpg',
       coordinates: [-8.138507488864654, 110.66157532251307],
       fullDescription: 'Air Terjun Indah adalah permata tersembunyi di desa ini. Dengan ketinggian sekitar 30 meter, airnya jatuh deras membentuk kolam alami yang jernih di bawahnya. Area sekitar air terjun dikelilingi oleh pepohonan rindang dan bebatuan alami, menciptakan suasana yang sangat tenang dan sejuk. Pengunjung bisa berenang di kolam, piknik di tepi sungai, atau sekadar duduk bersantai menikmati suara gemericik air. Akses menuju air terjun cukup mudah, dengan jalur setapak yang sudah tertata baik.'
