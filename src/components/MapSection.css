@@ -1,0 +1,13 @@
+/* src/components/MapSection.css */
+.map-section {
+    padding: 40px 0;
+    background-color: var(--bg-light);
+  }
+  
+  .leaflet-container {
+    height: 500px; /* Atur tinggi peta */
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+  }

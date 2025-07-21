@@ -1,0 +1,91 @@
+/* src/components/AttractionDetailModal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Pastikan di atas semua elemen lain */
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 700px; /* Lebar maksimum modal */
+    position: relative;
+    max-height: 90vh; /* Tinggi maksimum modal */
+    overflow-y: auto; /* Scroll jika konten terlalu panjang */
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s ease;
+  }
+  
+  .modal-close-button:hover {
+    color: var(--primary-color);
+  }
+  
+  .modal-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-text-content h2 {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .modal-text-content p {
+    line-height: 1.8;
+    color: #444;
+    font-size: 1.05rem;
+  }
+  
+  /* Optional: Add a simple button style for "Baca Selengkapnya" */
+  .read-more-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #388E3C; /* Darker green */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
