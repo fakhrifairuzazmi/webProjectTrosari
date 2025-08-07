@@ -14,16 +14,17 @@ L.Icon.Default.mergeOptions({
 });
 
 function MapSection({ attractions }) {
-  const center = [-8.138693228575015, 110.66151408628707]; // Contoh koordinat tengah desa
+  const center = [-8.138800373067758, 110.65947922600355]; // Contoh koordinat tengah desa -8.138800373067758, 110.65947922600355
 
   return (
     <section id="map-section" className="map-section">
       <div className="container">
         <h2>Jelajahi Peta Wisata</h2>
-        <MapContainer center={center} zoom={18} scrollWheelZoom={false} className="leaflet-container">
+        <MapContainer center={center} zoom={30} scrollWheelZoom={false} className="leaflet-container">
   <TileLayer
     attribution=''
-    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    url="https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+"
     maxZoom={19}
   />
   {attractions.map(attraction => (
@@ -35,7 +36,7 @@ function MapSection({ attractions }) {
           src={attraction.image} 
           alt={attraction.name} 
           style={{ 
-            width: '100px', 
+            width: '300px', 
             height: 'auto', 
             borderRadius: '5px', 
             marginTop: '10px' 
