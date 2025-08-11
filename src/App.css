@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lato:wght@300;400;700&display=swap');
 
 :root {
-  --primary-color: #4CAF50; /* Hijau */
-  --secondary-color: #607D8B; /* Abu-abu kebiruan */
+  --primary-color: #4db050; /* Hijau */
+  --secondary-color: #4db050; /* Abu-abu kebiruan */
   --accent-color: #FFC107; /* Kuning */
-  --text-color: #333;
+  --text-color: #333333;
   --bg-light: #f4f7f6;
   --bg-dark: #2c3e50;
   --card-bg: #ffffff;

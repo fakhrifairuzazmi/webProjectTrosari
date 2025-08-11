@@ -11,60 +11,51 @@ function App() {
     {
       id: 1,
       name: 'Jajanan Pasar',
-      description: 'Air terjun yaefefevefvng memukau dengan suasana asri dan air yang jernih. Lokasi ini sangat cocok untuk relaksasi dan menikmati keindahan alam. Anda bisa berfoto dengan latar belakang air terjun yang megah dan merasakan kesegaran airnya.',
+      description: 'Spot kuliner di desa wisata yang menyajikan berbagai makanan tradisional khas Indonesia, dibuat langsung oleh warga desa.',
       image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG_20250730_160656.jpg',
       coordinates: [-8.138915624551313, 110.6593197409045],
-      fullDescription: 'Air Terjun Indah adalah permata tersembunyi di desa ini. Dengan ketinggian sekitar 30 meter, airnya jatuh deras membentuk kolam alami yang jernih di bawahnya. Area sekitar air terjun dikelilingi oleh pepohonan rindang dan bebatuan alami, menciptakan suasana yang sangat tenang dan sejuk. Pengunjung bisa berenang di kolam, piknik di tepi sungai, atau sekadar duduk bersantai menikmati suara gemericik air. Akses menuju air terjun cukup mudah, dengan jalur setapak yang sudah tertata baik.'
-    },
+      fullDescription: 'Salah satu spot unggulan yang akan memperkaya pengalaman wisatawan di desa wisata ini adalah “Jajanan Pasar”, sebuah area kuliner khas yang menampilkan ragam cita rasa tradisional Indonesia. Terletak di jantung desa, area ini akan dipenuhi dengan tenda dan lapak-lapak sederhana namun penuh warna, tempat para pelaku UMKM lokal—terutama warga desa sendiri—menawarkan berbagai jenis makanan ringan khas pasar tradisional.'},
     {
       id: 2,
       name: 'Permainan Egrang',
-      description: 'Hamparan sawah terasering yang menyejukkan mata, cocok untuk swafoto.',
+      description: 'Menghadirkan egrang, dakon, dan plintengan sebagai sarana bermain seru bernuansa nostalgia, sekaligus mengenalkan kearifan lokal kepada para pengunjung.',
       image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG_20250730_160649.jpg',
       coordinates: [-8.138966601599844, 110.6594965249901],
-      fullDescription: 'Persawahan Hijau menawarkan pemandangan terasering yang menakjubkan, terutama saat padi mulai menguning atau baru ditanam. Ini adalah spot favorit para fotografer dan pecinta alam. Anda bisa berjalan-jalan di pematang sawah, berinteraksi dengan petani lokal, atau sekadar menikmati udara segar pedesaan. Pemandangan matahari terbit atau terbenam di atas hamparan sawah ini adalah pengalaman yang tak terlupakan.'
+      fullDescription: 'Spot Permainan Tradisional menjadi salah satu daya tarik utama di desa wisata ini, menghadirkan nuansa nostalgia sekaligus edukasi budaya bagi para pengunjung dari berbagai kalangan. Di area ini, pengunjung diajak untuk mengenal dan merasakan kembali keseruan permainan khas masa lalu seperti egrang, dakon, dan plintengan, yang dulunya menjadi hiburan utama anak-anak desa sebelum era teknologi modern.'
     },
     {
       id: 3,
-      name: '3',
-      description: 'Tempat di mana Anda bisa menemukan berbagai kerajinan tangan khas desa.',
-      image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG-20230529-WA0070.jpg',
+      name: 'Kerajinan Perak',
+      description: 'Spot Kerajinan Perak menampilkan proses pembuatan perhiasan dan cendera mata dari perak oleh pengrajin lokal, sekaligus membuka ruang edukasi dan pengalaman langsung bagi pengunjung dalam membuat karya perak mereka sendiri.',
+      image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/WhatsApp%20Image%202025-08-07%20at%2007.22.57_dde23ef3.jpg',
       coordinates: [-8.138856086493336, 110.65954277566878],
-      fullDescription: 'Pusat Kerajinan Lokal adalah jantung kreativitas desa. Di sini, Anda bisa melihat langsung proses pembuatan berbagai kerajinan tangan tradisional seperti anyaman bambu, ukiran kayu, atau kain tenun. Pengunjung juga bisa membeli produk-produk unik ini sebagai oleh-oleh. Ini adalah kesempatan bagus untuk mendukung ekonomi lokal dan membawa pulang kenang-kenangan otentik dari desa.'
+      fullDescription: 'Spot Kerajinan Perak di desa wisata ini menjadi jendela bagi para pengunjung untuk menyaksikan secara langsung keindahan dan ketelatenan dalam seni mengolah logam mulia menjadi karya bernilai tinggi. Di area ini, wisatawan dapat menjumpai deretan pengrajin lokal yang dengan cekatan membentuk, memahat, dan mengukir perak menjadi berbagai produk menarik seperti cincin, gelang, bros, miniatur, dan aneka cendera mata khas.'
     },
     {
       id: 4,
-      name: '4',
-      description: 'Tempat di mana Anda bisa menemukan berbagai kerajinan tangan khas desa.',
+      name: 'Permainan Sawah-sawahan',
+      description: 'Permainan ini mengadaptasi congklak tradisional menjadi versi raksasa di area persawahan, mengajak pengunjung bermain sambil merasakan sensasi alam pedesaan yang unik dan menyenangkan.',
       image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG_20250730_161313.jpg',
       coordinates: [-8.138496122787766, 110.65969269166504],
-      fullDescription: 'Pusat Kerajinan Lokal adalah jantung kreativitas desa. Di sini, Anda bisa melihat langsung proses pembuatan berbagai kerajinan tangan tradisional seperti anyaman bambu, ukiran kayu, atau kain tenun. Pengunjung juga bisa membeli produk-produk unik ini sebagai oleh-oleh. Ini adalah kesempatan bagus untuk mendukung ekonomi lokal dan membawa pulang kenang-kenangan otentik dari desa.'
+      fullDescription: 'menghadirkan sensasi bermain congklak dengan skala yang lebih besar dan suasana alam pedesaan yang asri. Terinspirasi dari permainan tradisional dakon atau congklak, spot ini menggunakan media berupa lubang-lubang besar yang dibuat di tanah sawah atau wadah alami, sementara biji congklak diganti dengan benda-benda khas desa seperti biji-bijian, kerikil sungai, atau buah-buahan kecil.'
     },
     {
       id: 5,
-      name: '5',
-      description: 'Tempat di mana Anda bisa menemukan berbagai kerajinan tangan khas desa.',
+      name: 'UMKM Anyaman',
+      description: 'Spot UMKM Anyaman menyajikan kerajinan tradisional berbahan alami karya warga desa, di mana pengunjung bisa membeli hasil anyaman khas atau ikut belajar langsung proses pembuatannya.',
       image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG_20250730_161409.jpg',
       coordinates: [-8.138445090870901, 110.65990306664135],
-      fullDescription: 'Pusat Kerajinan Lokal adalah jantung kreativitas desa. Di sini, Anda bisa melihat langsung proses pembuatan berbagai kerajinan tangan tradisional seperti anyaman bambu, ukiran kayu, atau kain tenun. Pengunjung juga bisa membeli produk-produk unik ini sebagai oleh-oleh. Ini adalah kesempatan bagus untuk mendukung ekonomi lokal dan membawa pulang kenang-kenangan otentik dari desa.'
+      fullDescription: 'Spot UMKM Anyaman di desa wisata ini menampilkan kekayaan kreativitas warga dalam mengolah bahan-bahan alami menjadi produk kerajinan tangan yang bernilai seni tinggi. Dari bambu, pandan, rotan, hingga daun kelapa, tangan-tangan terampil para perajin desa mengubahnya menjadi aneka bentuk seperti tas, tikar, keranjang, topi, hiasan dinding, hingga wadah makanan yang ramah lingkungan.'
     },
     {
       id: 6,
       name: 'Telaga Sumur',
-      description: 'Tempat di mana Anda bisa menemukan berbagai kerajinan tangan khas desa.',
+      description: 'Telaga Sumur di Desa Trosari menawarkan keseruan bermain layang-layang di tengah hamparan alam yang asri, dengan angin sepoi yang membuat layangan terbang tinggi di langit biru desa.',
       image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG_20250730_162509.jpg',
       coordinates: [-8.142182032802083, 110.6586708790847],
-      fullDescription: 'Pusat Kerajinan Lokal adalah jantung kreativitas desa. Di sini, Anda bisa melihat langsung proses pembuatan berbagai kerajinan tangan tradisional seperti anyaman bambu, ukiran kayu, atau kain tenun. Pengunjung juga bisa membeli produk-produk unik ini sebagai oleh-oleh. Ini adalah kesempatan bagus untuk mendukung ekonomi lokal dan membawa pulang kenang-kenangan otentik dari desa.'
-    },
-    {
-      id: 7,
-      name: '7',
-      description: 'Tempat di mana Anda bisa menemukan berbagai kerajinan tangan khas desa.',
-      image: 'https://raw.githubusercontent.com/fakhrifairuzazmi/gambar-gambar/refs/heads/main/IMG-20230529-WA0070.jpg',
-      coordinates: [-8.138623048575724, 110.65943619745563],
-      fullDescription: 'Pusat Kerajinan Lokal adalah jantung kreativitas desa. Di sini, Anda bisa melihat langsung proses pembuatan berbagai kerajinan tangan tradisional seperti anyaman bambu, ukiran kayu, atau kain tenun. Pengunjung juga bisa membeli produk-produk unik ini sebagai oleh-oleh. Ini adalah kesempatan bagus untuk mendukung ekonomi lokal dan membawa pulang kenang-kenangan otentik dari desa.'
+      fullDescription: 'elaga Sumur di Desa Trosari tidak hanya memikat dengan keindahan alamnya yang tenang, tetapi juga menjadi lokasi favorit untuk menikmati permainan tradisional yang sarat kenangan: menerbangkan layang-layang. Berada di area terbuka yang luas dengan hembusan angin yang stabil, telaga ini menawarkan kondisi ideal bagi layang-layang untuk terbang tinggi menghiasi langit biru desa.'
     }
-  ];
+   ];
 
   // State untuk mengelola modal
   const [selectedAttraction, setSelectedAttraction] = useState(null); // Menyimpan data daya tarik yang dipilih

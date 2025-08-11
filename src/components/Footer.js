@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; {new Date().getFullYear()} Desa Wisata Impian. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Desa Wisata Trosari. All rights reserved.</p>
       </div>
     </footer>
   );
